@@ -11,15 +11,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/aboutme", (req, res) => {
-  res.render("aboutme");
+  res.render("aboutme.ejs");
 });
 
 app.get("/projects", (req, res) => {
-  res.render("projects");
+  res.render("projects.ejs");
 });
 
 app.get("/contactme", (req, res) => {
-  res.render("contactme");
+  res.render("contactme.ejs");
 });
 
 // Start the server
